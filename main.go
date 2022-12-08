@@ -10,7 +10,7 @@ import (
 
 func add_user(isimsoyisim string, telefon string, eposta string) bool {
 
-	db, err := sql.Open("mysql", "root:1Mhszxisq4r@tcp(127.0.0.1:3306)/deneme1")
+	db, err := sql.Open("mysql", "root:sifre@tcp(127.0.0.1:3306)/deneme1")
 	if err != nil {
 		panic(err)
 	}
